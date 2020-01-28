@@ -8,7 +8,7 @@ namespace TEST_REST_API
     [TestClass]
     public class LocationAPI
     {
-        [TestMethod]
+        [TestMethod, TestCategory("Sanity")]
         public void GetLocationInfo()
         {
             //Client Initialisation
